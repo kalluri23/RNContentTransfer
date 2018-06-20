@@ -6,11 +6,15 @@ import CTConstants from '../../Constants/CTConstants';
 
 export const CTNavigationController = StackNavigator({
   GetStartedScreen: { screen: GetStartedScreen,
-                      title: CTConstants.CT_GET_STRATED_NAV_TITLE,
-                      headerTitleStyle :{textAlign: 'center',alignSelf:'center'},
-                      headerStyle:{ backgroundColor:'red'} 
+                      navigationOptions: {
+                                            title: CTConstants.CT_GET_STRATED_NAV_TITLE
+                                         }
                     },
-  DeviceSelection: { screen: DeviceSelection, title: CTConstants.CT_SETUP_NAV_TITLE }
+  DeviceSelection: { screen: DeviceSelection,
+                     navigationOptions: {
+                                            title: CTConstants.CT_GET_STRATED_NAV_TITLE
+                                        } 
+                   }
 });
 
 export default class LandingScreen extends Component {
