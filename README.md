@@ -8,4 +8,5 @@ NOTES
    react-native upgrade  (regenerates the ios and android folders)
    react-native link (links the regenerated folders with node modules)
 
-   
+
+-- 
