@@ -5,7 +5,11 @@ import GetStartedScreen from '../../Screens/GetStarted/GetStarted'
 import CTConstants from '../../Constants/CTConstants';
 
 export const CTNavigationController = StackNavigator({
-  GetStartedScreen: { screen: GetStartedScreen, title: CTConstants.CT_GET_STRATED_NAV_TITLE },
+  GetStartedScreen: { screen: GetStartedScreen,
+                      title: CTConstants.CT_GET_STRATED_NAV_TITLE,
+                      headerTitleStyle :{textAlign: 'center',alignSelf:'center'},
+                      headerStyle:{ backgroundColor:'red'} 
+                    },
   DeviceSelection: { screen: DeviceSelection, title: CTConstants.CT_SETUP_NAV_TITLE }
 });
 
