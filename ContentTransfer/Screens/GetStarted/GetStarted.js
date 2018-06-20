@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 
 export default class GetStartedScreen extends Component {
 
-  _handleSignIn = () => {
+  handleSignIn = () => {
     console.log('Button Pressed')
   }
 
@@ -36,7 +36,7 @@ export default class GetStartedScreen extends Component {
         </Text>
         <CTCustomButton
           titleText={CTConstants.CT_GET_STRATED_BUTTON_TITLE}
-          onPress={this._handleSignIn}
+          onPress={this.handleSignIn}
           isSolidButton={true}
         />
       </View>

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -21,6 +22,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		15518DC8F32A4A05889303EA /* NHaasGroteskTXStd-76BdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */; };
+		1A1B9C83BD5044EE95470F93 /* NHaasGroteskTXStd-65Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = 711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -35,20 +38,18 @@
 		2DCD954D1E0B4F2C00145EB5 /* RNContentTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNContentTransferTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		71F18A69D64C42A499A894AA /* NHaasGroteskDSStd-55Rg.otf in Resources */ = {isa = PBXBuildFile; fileRef = AEF76D7B569E47E490AEC7E0 /* NHaasGroteskDSStd-55Rg.otf */; };
-		9930D8BA75E348A5B17E04B9 /* NHaasGroteskDSStd-56It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */; };
-		F3E279446EB24178AE8615E9 /* NHaasGroteskDSStd-65Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */; };
-		A2FBE1DA17674722A91DAF75 /* NHaasGroteskDSStd-66MdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */; };
-		CAE09852D77A4D7CA4AC3C70 /* NHaasGroteskDSStd-75Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */; };
-		AA886478DDA540419A5C945F /* NHaasGroteskDSStd-76BdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		960A7D625C8048E491AB31D5 /* NHaasGroteskTXStd-55Rg.otf in Resources */ = {isa = PBXBuildFile; fileRef = B321AA05B41841F597D5A062 /* NHaasGroteskTXStd-55Rg.otf */; };
+		9930D8BA75E348A5B17E04B9 /* NHaasGroteskDSStd-56It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */; };
+		A2FBE1DA17674722A91DAF75 /* NHaasGroteskDSStd-66MdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */; };
+		AA886478DDA540419A5C945F /* NHaasGroteskDSStd-76BdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B12F3C57BBDD4894B3E25661 /* NHaasGroteskTXStd-56It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 62B8364750F64968A3ADA2D1 /* NHaasGroteskTXStd-56It.otf */; };
-		1A1B9C83BD5044EE95470F93 /* NHaasGroteskTXStd-65Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = 711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */; };
 		BFA849C13AB44246AE90A95F /* NHaasGroteskTXStd-66MdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = E52C76E4ED944B5B8C3B5FCF /* NHaasGroteskTXStd-66MdIt.otf */; };
+		CAE09852D77A4D7CA4AC3C70 /* NHaasGroteskDSStd-75Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */; };
+		F3E279446EB24178AE8615E9 /* NHaasGroteskDSStd-65Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */; };
 		FB6A15BE95F6442296B82E4C /* NHaasGroteskTXStd-75Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D942C7601DE849589C319C51 /* NHaasGroteskTXStd-75Bd.otf */; };
-		15518DC8F32A4A05889303EA /* NHaasGroteskTXStd-76BdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -328,7 +329,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = RNContentTransfer/main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
@@ -337,6 +338,7 @@
 		00E356EE1AD99517003FC87E /* RNContentTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNContentTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNContentTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNContentTransferTests.m; sourceTree = "<group>"; };
+		0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-56It.otf"; path = "../assets/fonts/NHaasGroteskDSStd-56It.otf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNContentTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNContentTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,25 +349,24 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNContentTransfer/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNContentTransfer/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-66MdIt.otf"; path = "../assets/fonts/NHaasGroteskDSStd-66MdIt.otf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNContentTransfer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNContentTransfer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNContentTransfer-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNContentTransfer-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-76BdIt.otf"; path = "../assets/fonts/NHaasGroteskTXStd-76BdIt.otf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		62B8364750F64968A3ADA2D1 /* NHaasGroteskTXStd-56It.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-56It.otf"; path = "../assets/fonts/NHaasGroteskTXStd-56It.otf"; sourceTree = "<group>"; };
+		6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-75Bd.otf"; path = "../assets/fonts/NHaasGroteskDSStd-75Bd.otf"; sourceTree = "<group>"; };
+		711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-65Md.otf"; path = "../assets/fonts/NHaasGroteskTXStd-65Md.otf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		AEF76D7B569E47E490AEC7E0 /* NHaasGroteskDSStd-55Rg.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-55Rg.otf"; path = "../assets/fonts/NHaasGroteskDSStd-55Rg.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-56It.otf"; path = "../assets/fonts/NHaasGroteskDSStd-56It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-65Md.otf"; path = "../assets/fonts/NHaasGroteskDSStd-65Md.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-66MdIt.otf"; path = "../assets/fonts/NHaasGroteskDSStd-66MdIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-75Bd.otf"; path = "../assets/fonts/NHaasGroteskDSStd-75Bd.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */ = {isa = PBXFileReference; name = "NHaasGroteskDSStd-76BdIt.otf"; path = "../assets/fonts/NHaasGroteskDSStd-76BdIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B321AA05B41841F597D5A062 /* NHaasGroteskTXStd-55Rg.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-55Rg.otf"; path = "../assets/fonts/NHaasGroteskTXStd-55Rg.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		62B8364750F64968A3ADA2D1 /* NHaasGroteskTXStd-56It.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-56It.otf"; path = "../assets/fonts/NHaasGroteskTXStd-56It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-65Md.otf"; path = "../assets/fonts/NHaasGroteskTXStd-65Md.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E52C76E4ED944B5B8C3B5FCF /* NHaasGroteskTXStd-66MdIt.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-66MdIt.otf"; path = "../assets/fonts/NHaasGroteskTXStd-66MdIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D942C7601DE849589C319C51 /* NHaasGroteskTXStd-75Bd.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-75Bd.otf"; path = "../assets/fonts/NHaasGroteskTXStd-75Bd.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */ = {isa = PBXFileReference; name = "NHaasGroteskTXStd-76BdIt.otf"; path = "../assets/fonts/NHaasGroteskTXStd-76BdIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AEF76D7B569E47E490AEC7E0 /* NHaasGroteskDSStd-55Rg.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-55Rg.otf"; path = "../assets/fonts/NHaasGroteskDSStd-55Rg.otf"; sourceTree = "<group>"; };
+		B321AA05B41841F597D5A062 /* NHaasGroteskTXStd-55Rg.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-55Rg.otf"; path = "../assets/fonts/NHaasGroteskTXStd-55Rg.otf"; sourceTree = "<group>"; };
+		C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-76BdIt.otf"; path = "../assets/fonts/NHaasGroteskDSStd-76BdIt.otf"; sourceTree = "<group>"; };
+		D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskDSStd-65Md.otf"; path = "../assets/fonts/NHaasGroteskDSStd-65Md.otf"; sourceTree = "<group>"; };
+		D942C7601DE849589C319C51 /* NHaasGroteskTXStd-75Bd.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-75Bd.otf"; path = "../assets/fonts/NHaasGroteskTXStd-75Bd.otf"; sourceTree = "<group>"; };
+		E52C76E4ED944B5B8C3B5FCF /* NHaasGroteskTXStd-66MdIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NHaasGroteskTXStd-66MdIt.otf"; path = "../assets/fonts/NHaasGroteskTXStd-66MdIt.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +548,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5C6F03B25A9E41A38E7DE4C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF76D7B569E47E490AEC7E0 /* NHaasGroteskDSStd-55Rg.otf */,
+				0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */,
+				D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */,
+				2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */,
+				6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */,
+				C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */,
+				B321AA05B41841F597D5A062 /* NHaasGroteskTXStd-55Rg.otf */,
+				62B8364750F64968A3ADA2D1 /* NHaasGroteskTXStd-56It.otf */,
+				711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */,
+				E52C76E4ED944B5B8C3B5FCF /* NHaasGroteskTXStd-66MdIt.otf */,
+				D942C7601DE849589C319C51 /* NHaasGroteskTXStd-75Bd.otf */,
+				4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,26 +647,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		5C6F03B25A9E41A38E7DE4C9 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				AEF76D7B569E47E490AEC7E0 /* NHaasGroteskDSStd-55Rg.otf */,
-				0452EFED50B340BE91766479 /* NHaasGroteskDSStd-56It.otf */,
-				D496C901C0F94DBDB183914D /* NHaasGroteskDSStd-65Md.otf */,
-				2BE056D5A7D34328AD3498F7 /* NHaasGroteskDSStd-66MdIt.otf */,
-				6A1130C0C50547CAB90DB55E /* NHaasGroteskDSStd-75Bd.otf */,
-				C5BEF1E108274DA2872969BF /* NHaasGroteskDSStd-76BdIt.otf */,
-				B321AA05B41841F597D5A062 /* NHaasGroteskTXStd-55Rg.otf */,
-				62B8364750F64968A3ADA2D1 /* NHaasGroteskTXStd-56It.otf */,
-				711771088ECA4926A396FD69 /* NHaasGroteskTXStd-65Md.otf */,
-				E52C76E4ED944B5B8C3B5FCF /* NHaasGroteskTXStd-66MdIt.otf */,
-				D942C7601DE849589C319C51 /* NHaasGroteskTXStd-75Bd.otf */,
-				4C6B65637EB648CF874E4426 /* NHaasGroteskTXStd-76BdIt.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -735,6 +735,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = FCMA4QKS77;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1263,6 +1266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = FCMA4QKS77;
 				INFOPLIST_FILE = RNContentTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1270,6 +1274,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vzw.RNContentTransfer;
 				PRODUCT_NAME = RNContentTransfer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1280,6 +1285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCMA4QKS77;
 				INFOPLIST_FILE = RNContentTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1287,6 +1293,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vzw.RNContentTransfer;
 				PRODUCT_NAME = RNContentTransfer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
