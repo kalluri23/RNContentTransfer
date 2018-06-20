@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 
 export default class DeviceSelection extends Component {
 
-  _handleNextTapped = () => {
+  handleNextTapped = () => {
     console.log('Next Button Pressed')
   }
 
@@ -36,8 +36,7 @@ export default class DeviceSelection extends Component {
         </Text>
         <CTCustomButton
           titleText={CTConstants.CT_NEXT_BUTTON_TITLE}
-          onPress={this._handleNextTapped}
-          isSolidButton={false}
+          onPress={this.handleNextTapped}
         />
       </View>
     );

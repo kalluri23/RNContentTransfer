@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>PCZ9AG8455.org.reactjs.native.example.RNContentTransfer</string>
+	<string>FCMA4QKS77.com.vzw.RNContentTransfer</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>PCZ9AG8455.org.reactjs.native.example.RNContentTransfer</string>
+		<string>FCMA4QKS77.com.vzw.RNContentTransfer</string>
 	</array>
 </dict>
 </plist>

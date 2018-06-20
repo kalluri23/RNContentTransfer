@@ -12,8 +12,8 @@ export const CTNavigationController = StackNavigator({
                     },
   DeviceSelection: { screen: DeviceSelection,
                      navigationOptions: {
-                                            title: CTConstants.CT_GET_STRATED_NAV_TITLE
-                                        } 
+                                            title: CTConstants.CT_SETUP_NAV_TITLE
+                                        }
                    }
 });
 

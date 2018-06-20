@@ -29,6 +29,7 @@ export default class GetStartedScreen extends Component {
   }
 
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <View style={styles.container}>
         <Text style={styles.main}>
@@ -36,7 +37,7 @@ export default class GetStartedScreen extends Component {
         </Text>
         <CTCustomButton
           titleText={CTConstants.CT_GET_STRATED_BUTTON_TITLE}
-          onPress={this.handleSignIn}
+          onPress={() => navigate("DeviceSelection", {screen: "DeviceSelection"})}
           isSolidButton={true}
         />
       </View>
