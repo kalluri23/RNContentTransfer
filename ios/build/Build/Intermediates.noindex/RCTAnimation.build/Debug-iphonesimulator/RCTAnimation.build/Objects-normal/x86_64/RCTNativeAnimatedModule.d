@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedModule.m \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedModule.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerObserverCoordinator.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerUtils.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/kallkr9/Documents/ReactNativePOCs/RNContentTransfer/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h
