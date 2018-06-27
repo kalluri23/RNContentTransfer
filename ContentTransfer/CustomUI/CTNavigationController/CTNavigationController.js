@@ -7,12 +7,14 @@ import CTConstants from '../../Constants/CTConstants';
 export const CTNavigationController = StackNavigator({
   GetStartedScreen: { screen: GetStartedScreen,
                       navigationOptions: {
-                                            title: CTConstants.CT_GET_STRATED_NAV_TITLE
+                                            title: CTConstants.CT_GET_STRATED_NAV_TITLE,
+                                            headerLeft: null
                                          }
                     },
   DeviceSelection: { screen: DeviceSelection,
                      navigationOptions: {
-                                            title: CTConstants.CT_SETUP_NAV_TITLE
+                                            title: CTConstants.CT_SETUP_NAV_TITLE,
+                                            headerLeft: null
                                         }
                    }
 });
