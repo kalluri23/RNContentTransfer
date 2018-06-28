@@ -10,6 +10,7 @@ export const buttonStyles = StyleSheet.create({
     borderColor: colors.blackColor,
     backgroundColor: colors.whiteColor,
     borderWidth: 1,
+    minWidth: 150
  },
  buttonText: {
    fontSize: 20,
@@ -27,6 +28,7 @@ export const buttonStyles = StyleSheet.create({
    borderColor: colors.blackColor,
    backgroundColor: colors.blackColor,
    borderWidth: 1,
+   minWidth: 150
 },
 solidButtonText: {
   fontSize: 20,

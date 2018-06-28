@@ -1,26 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { colors } from '../../CustomUI/CTColors/styles';
+import { View } from 'react-native';
 import CTCustomButton from '../../CustomUI/CTCustomButton/CTCustomButton';
 import CTConstants from '../../Constants/CTConstants';
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: colors.whiteColor,
-  },
-  main: {
-    fontSize: 20,
-    textAlign: 'center',
-    color: colors.blackColor,
-    fontWeight: '400',
-    fontStyle: 'italic',
-    fontFamily: 'NHaasGroteskDSStd-66MdIt'
-  },
-});
+import { DeviceSelectionScreenStyles } from './styles';
+import { CTPrimaryMessageLabel, CTSecondaryMessageLabel, CTAttributedLabel } from '../../CustomUI/CTCustomLabel/CTCustomLabel'
 
 export default class DeviceSelection extends Component {
 
@@ -29,15 +12,21 @@ export default class DeviceSelection extends Component {
   }
 
   render() {
+    const { navigate } = this.props.navigation;
     return (
-      <View style={styles.container}>
-        <Text style={styles.main}>
-          {CTConstants.CT_DEVICE_COMBINATION_HEADER}
-        </Text>
-        <CTCustomButton
-          titleText={CTConstants.CT_NEXT_BUTTON_TITLE}
-          onPress={this.handleNextTapped}
-        />
+      <View margin={0} style={DeviceSelectionScreenStyles.container}>
+        <View marginLeft={40} marginRight={40} marginTop={20} marginBottom={20}>
+          <CTPrimaryMessageLabel infoText={CTConstants.CT_DEVICE_COMBINATION_HEADER}>
+          </CTPrimaryMessageLabel>
+        </View>
+        <View style={DeviceSelectionScreenStyles.headerSeperator} marginLeft={40} marginRight={40} marginTop={0} marginBottom={10}>
+        </View>
+        <View margin={40} style={{position:'absolute', bottom:0, alignSelf: 'center'}}>
+          <CTCustomButton
+            titleText={CTConstants.CT_NEXT_BUTTON_TITLE}
+            onPress={this.handleNextTapped}
+          />
+        </View>
       </View>
     );
   }
