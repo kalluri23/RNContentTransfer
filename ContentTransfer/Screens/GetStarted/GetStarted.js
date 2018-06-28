@@ -16,7 +16,7 @@ export default class GetStartedScreen extends Component {
     return (
       <View margin={0} style={GetStartedScreenStyles.container}>
         <View marginLeft={40} marginRight={40} marginTop={10} marginBottom={10}>
-          <CTPrimaryMessageLabel infoText={CTConstants.CT_GET_STARTED_HEADER}>
+          <CTPrimaryMessageLabel infoText={CTConstants.CT_GET_STARTED_HEADER} maxLines={3}>
           </CTPrimaryMessageLabel>
         </View>
         <View marginLeft={40} marginRight={40} marginTop={0} marginBottom={0}>

@@ -4,20 +4,22 @@ import { Text } from 'react-native';
 import { LabelStyles } from './styles'
 
 export const CTPrimaryMessageLabel = (props) => {
-  const { infoText } = props;
+  const { infoText, maxLines } = props;
   return (
-    <Text style={LabelStyles.primaryMessageStyle}>
+    <Text style={LabelStyles.primaryMessageStyle} adjustsFontSizeToFit={true} minimumFontScale={0.5} numberOfLines={maxLines} ellipsizeMode={'tail'}>
           {infoText}
     </Text>
   );
 };
 
 CTPrimaryMessageLabel.propTypes = {
-  infoText: PropTypes.string.isRequired
+  infoText: PropTypes.string.isRequired,
+  maxLines: PropTypes.number
 };
 
 CTPrimaryMessageLabel.defaultProps = {
-  infoText: 'Label'
+  infoText: 'Label',
+  maxLines: 1
 };
 
 export const CTSecondaryMessageLabel = (props) => {
