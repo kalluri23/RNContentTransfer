@@ -15,9 +15,9 @@ export const buttonStyles = StyleSheet.create({
    fontSize: 20,
    textAlign: 'center',
    color: colors.blackColor,
-   fontWeight: '400',
+   fontWeight: 'bold',
    fontStyle: 'normal',
-   fontFamily: 'NHaasGroteskDSStd-75Bd'
+   fontFamily: 'NHaasGroteskTXStd-55Rg'
  },
  solidRoundedButton: {
    opacity: 1,
@@ -32,8 +32,8 @@ solidButtonText: {
   fontSize: 20,
   textAlign: 'center',
   color: colors.whiteColor,
-  fontWeight: '400',
+  fontWeight: 'bold',
   fontStyle: 'normal',
-  fontFamily: 'NHaasGroteskDSStd-75Bd'
+  fontFamily: 'NHaasGroteskTXStd-55Rg'
 }
 });
