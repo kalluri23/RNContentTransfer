@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, TouchableOpacity, Text } from 'react-native';
 import { buttonStyles } from './styles';
 
-const CTCustomButton = (props) => {
+export default CTCustomButton = (props) => {
   const { titleText, onPress, isSolidButton } = props;
   return (
     <TouchableOpacity onPress={onPress} style={isSolidButton ? buttonStyles.solidRoundedButton : buttonStyles.roundedButton}>
@@ -26,4 +26,26 @@ CTCustomButton.defaultProps = {
   isSolidButton: true
 };
 
-export default CTCustomButton;
+export class CTRadioButton extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {isChecked: false};
+  }
+
+  radioButtonPressed = () => {
+    this.setState(previousState => {
+        return { isChecked: !previousState.isChecked };
+      });
+    this.props.onPress.bind(this)
+  }
+
+  render(){
+    return(
+      <TouchableOpacity onPress={this.radioButtonPressed} style={buttonStyles.radioButton}>
+        <View style={this.state.isChecked ? buttonStyles.radioButtonChecked : buttonStyles.radioButtonUnchecked}>
+        </View>
+      </TouchableOpacity>
+    );
+  }
+};

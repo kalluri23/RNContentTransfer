@@ -37,5 +37,32 @@ solidButtonText: {
   fontWeight: 'bold',
   fontStyle: 'normal',
   fontFamily: 'NHaasGroteskTXStd-55Rg'
+},
+radioButton: {
+  opacity: 1,
+  borderRadius: 12,
+  borderColor: colors.blackColor,
+  backgroundColor: colors.whiteColor,
+  borderWidth: 2,
+  height: 24,
+  width: 24,
+  alignItems: 'center',
+  justifyContent: 'center'
+},
+radioButtonChecked: {
+  opacity: 1,
+  borderRadius: 6,
+  backgroundColor: colors.blackColor,
+  height: 12,
+  width: 12,
+  alignSelf: 'center'
+},
+radioButtonUnchecked: {
+  opacity: 1,
+  borderRadius: 6,
+  backgroundColor: colors.whiteColor,
+  height: 12,
+  width: 12,
+  alignSelf: 'center'
 }
 });
