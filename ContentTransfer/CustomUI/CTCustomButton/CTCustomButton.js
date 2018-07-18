@@ -30,20 +30,12 @@ export class CTRadioButton extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {isChecked: false};
-  }
-
-  radioButtonPressed = () => {
-    this.setState(previousState => {
-        return { isChecked: !previousState.isChecked };
-      });
-    this.props.onPress.bind(this)
   }
 
   render(){
     return(
-      <TouchableOpacity onPress={this.radioButtonPressed} style={buttonStyles.radioButton}>
-        <View style={this.state.isChecked ? buttonStyles.radioButtonChecked : buttonStyles.radioButtonUnchecked}>
+      <TouchableOpacity style={buttonStyles.radioButton}>
+        <View style={this.props.isChecked ? buttonStyles.radioButtonChecked : buttonStyles.radioButtonUnchecked}>
         </View>
       </TouchableOpacity>
     );

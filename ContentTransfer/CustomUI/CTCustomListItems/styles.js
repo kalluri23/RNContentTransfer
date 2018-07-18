@@ -12,15 +12,17 @@ export const ListItemStyles = StyleSheet.create({
   },
 
   secondaryTextStyle: {
-    fontSize: 10,
+    fontSize: 15,
     textAlign: 'left',
     color: colors.blackColor,
     fontWeight: 'normal',
     fontStyle: 'normal',
     fontFamily: 'NHaasGroteskDSStd-55Rg'
   },
-  
+
   itemContainer: {
-    backgroundColor: colors.whiteColor
+    backgroundColor: colors.whiteColor,
+    flexDirection:'row',
+    alignItems:'center'
   }
 });

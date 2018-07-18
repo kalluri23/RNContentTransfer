@@ -13,8 +13,30 @@ export default class DeviceSelection extends Component {
   }
 
   renderItem = ({item}) => (
-    <CTDoubLabelCheckBoxItem primaryText={item.primText} secondaryText={item.secText}/>
+    <CTDoubLabelCheckBoxItem primaryText={item.primText} secondaryText={item.secText} isChecked={item.isChecked} onPressItem={this.itemSelected.bind(this, {item})}/>
   );
+
+  itemSelected = ({item}) => {
+    const newDeviceItems = this.state.deviceItems
+    if (newDeviceItems[0].isChecked == newDeviceItems[1].isChecked) {
+      for(let i = 0; i < 2; i++){
+        if (item.primText == newDeviceItems[i].primText) {
+          newDeviceItems[i].isChecked = !newDeviceItems[i].isChecked
+        }
+  		}
+    }else {
+      newDeviceItems[0].isChecked = !newDeviceItems[0].isChecked
+      newDeviceItems[1].isChecked = !newDeviceItems[1].isChecked
+    }
+    this.setState({deviceItems: newDeviceItems});
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {deviceItems: [{primText: CTConstants.CT_DEVICE_OLD_PRIM_TEXT, secText: CTConstants.CT_DEVICE_OLD_SEC_TEXT, isChecked: false},
+                                {primText: CTConstants.CT_DEVICE_NEW_PRIM_TEXT, secText: CTConstants.CT_DEVICE_NEW_SEC_TEXT, isChecked: false}]
+                 };
+  }
 
   render() {
     const { navigate } = this.props.navigation;
@@ -27,9 +49,9 @@ export default class DeviceSelection extends Component {
         <View style={DeviceSelectionScreenStyles.headerSeperator} marginLeft={40} marginRight={40} marginTop={0} marginBottom={10}>
         </View>
         <FlatList
-          data={[{primText: CTConstants.CT_DEVICE_OLD_PRIM_TEXT, secText: CTConstants.CT_DEVICE_OLD_SEC_TEXT},
-                 {primText: CTConstants.CT_DEVICE_NEW_PRIM_TEXT, secText: CTConstants.CT_DEVICE_NEW_SEC_TEXT}]}
+          data={this.state.deviceItems}
           renderItem={this.renderItem}
+          extraData={this.state}
           keyExtractor={item => item.primText}
         />
         <View margin={40} style={{position:'absolute', bottom:0, alignSelf: 'center'}}>

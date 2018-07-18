@@ -9,7 +9,7 @@ export default {
   CT_GET_STARTED_TNC_PART1: 'By clicking Start Transfer you are accepting the',
   CT_GET_STARTED_TNC_PART2: 'Terms and Conditions',
   CT_DEVICE_OLD_PRIM_TEXT: 'This is my old phone',
-  CT_DEVICE_OLD_SEC_TEXT: 'I will be transferring this from this phone',
+  CT_DEVICE_OLD_SEC_TEXT: 'I will be transferring things from this phone',
   CT_DEVICE_NEW_PRIM_TEXT: 'This is my new phone',
   CT_DEVICE_NEW_SEC_TEXT: 'I will be transferring things to this phone'
 };
