@@ -34,10 +34,10 @@ export class CTRadioButton extends Component {
 
   render(){
     return(
-      <TouchableOpacity style={buttonStyles.radioButton}>
+      <View style={buttonStyles.radioButton}>
         <View style={this.props.isChecked ? buttonStyles.radioButtonChecked : buttonStyles.radioButtonUnchecked}>
         </View>
-      </TouchableOpacity>
+      </View>
     );
   }
 };
